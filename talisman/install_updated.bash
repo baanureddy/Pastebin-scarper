@@ -36,7 +36,7 @@ function run() {
 
   IFS=$'\n'
   VERSION=${VERSION:-'latest'}
-  INSTALL_ORG_REPO=${INSTALL_ORG_REPO:-'/baanureddy/talisman-custom'}
+  INSTALL_ORG_REPO=${INSTALL_ORG_REPO:-'baanureddy/talisman-custom'}
 
   DEFAULT_GLOBAL_TEMPLATE_DIR="$HOME/.git-template" # create git-template dir here if not already setup
   TALISMAN_SETUP_DIR=${HOME}/.talisman/bin          # location of central install: talisman binary and hook script
