@@ -30,9 +30,6 @@ function run() {
   #    This is symlinked to the talisman_hook_script in $TALISMAN_SETUP_DIR, for ease of upgrade.
 
   declare TALISMAN_BINARY_NAME
-  HOME="${HOME:-/home/$USER}"
-  export HOME
-  echo "Home directory is set to: $HOME"
 
   E_CHECKSUM_MISMATCH=2
   E_UNSUPPORTED_ARCH=5
